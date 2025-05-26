@@ -1,10 +1,10 @@
-# Finable Backend 🔐
+# Finable Backend
 
 > *"A system reborn. A standard redefined. A new financial future — shaped by your hands."*
 
 **Finable** is a secure financial backend system born from the Learnable 24 Backend Standardisation Test. Built with Express.js, Node.js, and MongoDB, this application implements the ancient Protocol left behind by Amarogba, the Last Codebender — a blueprint for secure, transparent, and trustworthy financial systems.
 
-## 🌟 The Story Behind Finable
+## The Story Behind Finable
 
 In the legendary tale of financial collapse and redemption, Finable represents the culmination of the **Five Trials of Revival** — a quest to rebuild trust through secure code architecture. This backend system demonstrates mastery over:
 
@@ -29,17 +29,17 @@ Built to honor the Custodians' teachings and avoid the mistakes of Unoka the Com
 - [Contributing](#-contributing)
 - [Support](#-support)
 
-## ✨ Features
+## Features
 
-- 🔐 **Secure Account Creation**: Complete user registration system with unique 10-digit account numbers
-- 💳 **Virtual Card Generation**: Automatic creation of secure 16-digit card numbers with CVV and expiry dates
-- 🔑 **RSA Encryption Protocol**: Advanced encryption for sensitive data (card details, phone numbers, birth dates)
-- 📊 **Encrypted Data Management**: Secure storage and retrieval of encrypted information
-- 🛡️ **Environment-Based Security**: No hardcoded secrets, following the Protocol's security standards
-- 📜 **Transparent Record Keeping**: Complete audit trail with both encrypted and decrypted data access
-- 🗂️ **Professional Documentation**: Comprehensive Postman documentation following industry standards
+- **Secure Account Creation**: Complete user registration system with unique 10-digit account numbers
+- **Virtual Card Generation**: Automatic creation of secure 16-digit card numbers with CVV and expiry dates
+- **RSA Encryption Protocol**: Advanced encryption for sensitive data (card details, phone numbers, birth dates)
+- **Encrypted Data Management**: Secure storage and retrieval of encrypted information
+- **Environment-Based Security**: No hardcoded secrets, following the Protocol's security standards
+- **Transparent Record Keeping**: Complete audit trail with both encrypted and decrypted data access
+- **Professional Documentation**: Comprehensive Postman documentation following industry standards
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed on your local machine:
 
@@ -52,8 +52,8 @@ Before you begin, ensure you have the following installed on your local machine:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/DanielNwolu/Learnable_Standardization_Test
-   cd Learnable_Standardization_Test
+   git clone https://github.com/say-lem/LST.git
+   cd LST
    ```
 
 2. **Install dependencies**
@@ -70,16 +70,16 @@ Before you begin, ensure you have the following installed on your local machine:
 
 2. **Configure your `.env` file**
    ```env
-   PORT=8000
-   NODE_ENV=development
+   PORT=
+   NODE_ENV=
    ACCESS_TOKEN_SECRET="your-super-secret-jwt-key-here"
-   API_V1_STR="/api/v1"
-   MONGO_URI="mongodb://localhost:27017/finable"
+   API_V1_STR=
+   MONGO_URI=
    
-   RSA_PUBLIC="your-public-key-here"
-   RSA_PRIVATE="your-private-key-here"
+   RSA_PUBLIC=
+   RSA_PRIVATE=
    
-   POSTMAN_DOC_LINK="https://www.postman.com/civinlink/learnable-standardization-test"
+   POSTMAN_DOC_LINK="https://documenter.getpostman.com/view/45326840/2sB2qdeyzb"
    GITHUB_REPO_LINK="your-github-repo-url"
    ```
 
@@ -141,7 +141,7 @@ npm run dev
 npm start
 ```
 
-The server will start on `http://localhost:8000` (or your configured PORT).
+The server will start on `http://localhost:5000` (or your configured PORT).
 
 ## 📚 API Documentation
 
@@ -161,7 +161,7 @@ The server will start on `http://localhost:8000` (or your configured PORT).
 5. 🗂️ **Trial of Clarity**: Professional Postman documentation
 
 ### 📖 Postman Documentation
-Complete API documentation is available at: [Postman Docs](https://www.postman.com/civinlink/learnable-standardization-test)
+Complete API documentation is available at: [Postman Docs](https://documenter.getpostman.com/view/45326840/2sB2qdeyzb)
 
 ### 🌐 Live Demo
 Base URL: `https://learnable-standardization-test-wh0x.onrender.com`
@@ -195,9 +195,9 @@ finable/
 If you encounter any issues or have questions:
 
 - 📧 Open an issue on GitHub
-- 📖 Check the [Postman documentation](https://www.postman.com/civinlink/learnable-standardization-test)
+- 📖 Check the [Postman documentation](https://documenter.getpostman.com/view/45326840/2sB2qdeyzb)
 - 💬 Review existing issues for solutions
 
 ---
 
-**Built with ❤️ using Node.js, Express.js, and MongoDB**
+**Built using Node.js, Express.js, and MongoDB**
